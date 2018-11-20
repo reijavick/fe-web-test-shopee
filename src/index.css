@@ -12,3 +12,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.mainpage{
+	border: 2px solid black;
+	margin: auto;
+	width: 360px;
+
+}
+
+.main-header{
+	border-bottom: 2px solid black;
+}
+
+.list-item{
+	display: flex;
+	justify-content: space-between;
+	border:2px solid black;
+	margin: 15px;
+
+}
+
+.item-details{
+	width: 100%;
+}
+
+.first-line{
+	display: flex;
+	justify-content: space-between;
+}
+
+.second-line{
+	text-align: left;
+}
+
+.third-line{
+	text-align: left;
+	
+}
+
+.header-firstline{
+	font-style: italic;
+    font-weight: bold;
+    font-size: 12px;    
+    text-align: left;
+    margin-left: 15px;
+}
+
+.header-secondline{
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.nominal-input{
+	border: none;
+	text-align: right;
+	font-weight: bold;
+	width: auto;
+}
